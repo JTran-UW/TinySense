@@ -7,6 +7,7 @@ hide_header: true
 # TinySense: A Lighter Weight and More Power-efficient Avionics System for Flying Insect-scale Robots
 
 ![The TinySense next to the RoboFly and a pencil](assets/withrobo.jpg)
+The TinySense (center) is pictured with a Robofly (left) and a pencil (right).
 
 <div style="display: inline-block; margin: 10px 0px;">
 <a href="https://arxiv.org/abs/2501.03416" style="border: 2px solid black; border-radius: 2px; padding: 5px 6px; margin-right: 6px;">
@@ -21,17 +22,20 @@ hide_header: true
 </div>
 
 ## Introduction
-Due to their miniscule size, Flying Insect Robots (FIRs) are subject to SSWAP--Size, Speed, Weight, and Power--constraints that are not present on other scales of robots.  In the sensing domain, avionics for FIRs must be extremely small, light, and low-power, but also fast enough to perform state estimation on a robot that undergoes very fast motions.  **No sensor-autonomous FIR currently exists.**
+
+Due to their miniscule size, Flying Insect Robots (FIRs) are subject to SSWAP--Size, Speed, Weight, and Power--constraints that are not present on other scales of robots. In the sensing domain, avionics for FIRs must be extremely small, light, and low-power, but also fast enough to perform state estimation on a robot that undergoes very fast motions. **No sensor-autonomous FIR currently exists.**
 
 <img src="assets/sensors.png" alt="The TinySense compared to a penny" style="display: block; margin: 0px auto;">
 
-The TinySense consists of 3 sensors.  The first is the InvenSense ICM-42688-P Inertial Measurement Unit (IMU).  Second, in a departure from prior work, is a Bosch BMP390 pressure sensor replacing a power-hungry laser rangefinder.  Finally, a bulky optical flow sensor is replaced with a novel tiny global shutter camera by PixArt, while optical flow is computed on an Nordic nRF52840 microcontroller.  **At only 74mg and approximately 15mW, the TinySense presents the current smallest avionics system and is possibly capable of achieving FIR sensor autonomy.**
+The TinySense consists of 3 sensors. The first is the InvenSense ICM-42688-P Inertial Measurement Unit (IMU). Second, in a departure from prior work, is a Bosch BMP390 pressure sensor replacing a power-hungry laser rangefinder. Finally, a bulky optical flow sensor is replaced with a novel tiny global shutter camera by PixArt, while optical flow is computed on an Nordic nRF52840 microcontroller. **At only 74mg and approximately 15mW, the TinySense presents the current smallest avionics system and is possibly capable of achieving FIR sensor autonomy.**
 
 ## Demonstrations
-The TinySense was demonstrated on-board the Crazyflie, a quadrotor and the smallest commercially available sensor-autonomous flying robot.  In the videos below, an Adafruit nRF52840 Feather was attached to the top of the Crazyflie, and the TinySense is attached to its underside with the camera facing towards the floor.  The Crazyflie then flew up to an altitude of 1m, traveled forward 1m, and then landed.  The flights were also recorded by a motion capture system as a source of ground truth.
+
+The TinySense was demonstrated on-board the Crazyflie, a quadrotor and the smallest commercially available sensor-autonomous flying robot. In the videos below, an Adafruit nRF52840 Feather was attached to the top of the Crazyflie, and the TinySense is attached to its underside with the camera facing towards the floor. The Crazyflie then flew up to an altitude of 1m, traveled forward 1m, and then landed. The flights were also recorded by a motion capture system as a source of ground truth.
+
 ## Sensor Performance
 
-The TinySense sensors perform comparably to the industy-standard sensors on the Crazyflie.  Note that the pressure sensor measures a sharp decline at the beginning of the experiment due to the spinning blades causing a pressure drop.
+The TinySense sensors perform comparably to the industy-standard sensors on the Crazyflie. Note that the pressure sensor measures a sharp decline at the beginning of the experiment due to the spinning blades causing a pressure drop.
 
 <video controls width="100%">
   <source src="assets/TinySense_Sensors.webm" type="video/webm">
@@ -51,22 +55,21 @@ Using a Kalman Filter, the TinySense estimates pitch angle, velocity, and altitu
 ## Results
 The RMS Error of the TinySense against the motion capture is comparable to the Crazyflie, especially in angle, which is most important for hovering tasks.
 
-| Platform | Velocity (m/s) | Pitch Angle (deg) | Altitude (m)
-| -------- | -------- | -------- | -------- |
-| Crazyflie  | 0.075 ± 0.009  | 1.619 ± 0.267  | 0.021 ± 0.001 |
-| TinySense | 0.186 ± 0.015 | 1.573 ± 0.166 | 0.136 ± 0.026 |
+| Platform  | Velocity (m/s) | Pitch Angle (deg) | Altitude (m)  |
+| --------- | -------------- | ----------------- | ------------- |
+| Crazyflie | 0.075 ± 0.009  | 1.619 ± 0.267     | 0.021 ± 0.001 |
+| TinySense | 0.186 ± 0.015  | 1.573 ± 0.166     | 0.136 ± 0.026 |
 
 The TinySense shows significant reductions in weight and power compared to [prior work](https://ieeexplore.ieee.org/document/9811918).
 
-
-|  | Weight (mg) | Power (mW) |
-| -------- | -------- | -------- |
-| Prior Work  | 187   | 21  |
-| TinySense | 74 | 15.6 |
+|            | Weight (mg) | Power (mW) |
+| ---------- | ----------- | ---------- |
+| Prior Work | 187         | 21         |
+| TinySense  | 74          | 15.6       |
 
 ## Future Work
 
-The RoboFly, the Autonomous Insect Robotics Lab's FIR, has an estimated maximum payload of 150 mg and a power capacity of 20 mW.  The TinySense shows it is capable of accurate state estimation within these constraints.  Aiming to prove the first sensor-autonomous FIR, we are currently working on integrating the TinySense on the RoboFly.
+The RoboFly, the Autonomous Insect Robotics Lab's FIR, has an estimated maximum payload of 150 mg and a power capacity of 20 mW. The TinySense shows it is capable of accurate state estimation within these constraints. Aiming to prove the first sensor-autonomous FIR, we are currently working on integrating the TinySense on the RoboFly.
 
 ## Team
 
