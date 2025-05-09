@@ -24,7 +24,6 @@ url: https://tinysense.github.io
 title: TinySense
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to the TinySense Docs! The TinySense is a novel ultra low-weight, low-power, low-computation, avionics system for Flying Insect Robots (FIRs).
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
