@@ -6,9 +6,8 @@ Optical Flow was perfomed using the Lucas-Kanade method.  Typically, Lucas-Kanad
 
 ![TinySense Optical Flow Process](assets/of_process.png)
 
-Rather than computing LK optical flow on the entire frame, the TinySense reduces computation by selecting 10 equally spaced patches and averaging their flow vectors.  The below video compares TinySense optical flow with a gyroscope, which under pure rotation will produce the same measurement.  Note that due to difficulties storing captures at high data rates, this video contains flickering artifacts that were not present during the experiments.
+Rather than computing LK optical flow on the entire frame, the TinySense reduces computation by selecting 10 equally spaced patches and averaging their flow vectors, achieving an estimated power consumtion of 5.5 mW.  The below video compares TinySense optical flow with a gyroscope, which under pure rotation will produce the same measurement.  Note that due to difficulties storing captures at high data rates, this video contains flickering artifacts that were not present during the experiments.
 
-<video controls width="100%">
-  <source src="assets/of.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+<div style="text-align: center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yuNV8dXP7nA?si=MnZ9sLN-hsS9RQo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>

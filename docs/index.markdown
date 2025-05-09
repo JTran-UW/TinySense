@@ -98,3 +98,14 @@ The TinySense was made by members of the [Autonomous Insect Robotics Lab](https:
     <p>Sawyer Buckminster Fuller</p>
   </div>
 </div>
+
+## Citing
+
+```
+@article{yu2025tinysense,
+  title={TinySense: A Lighter Weight and More Power-efficient Avionics System for Flying Insect-scale Robots},
+  author={Yu, Zhitao and Tran, Joshua and Li, Claire and Weber, Aaron and Talwekar, Yash P and Fuller, Sawyer},
+  journal={arXiv preprint arXiv:2501.03416},
+  year={2025}
+}
+```
