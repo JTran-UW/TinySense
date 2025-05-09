@@ -82,6 +82,10 @@ The TinySense was made by members of the [Autonomous Insect Robotics Lab](https:
     <p>Joshua Tran</p>
   </div>
   <div>
+    <img src="assets/team/claire.jpg" width="180px">
+    <p>Claire Li</p>
+  </div>
+  <div>
     <img src="assets/team/AaronWeberPicture.jpg" width="180px">
     <p>Aaron Weber</p>
   </div>
