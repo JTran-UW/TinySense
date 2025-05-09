@@ -7,6 +7,19 @@ hide_header: true
 # TinySense: A Lighter Weight and More Power-efficient Avionics System for Flying Insect-scale Robots
 
 ![The TinySense next to the RoboFly and a pencil](assets/withrobo.jpg)
+
+<div style="display: inline-block; margin: 10px 0px;">
+<a href="https://arxiv.org/abs/2501.03416" style="border: 2px solid black; border-radius: 2px; padding: 5px 6px; margin-right: 6px;">
+  <img src="assets/arxiv.png" height="20px" />
+  <span style="color: black; margin-left: 3px;">Paper</span>
+</a>
+
+<a href="https://github.com/JTran-UW/tinysense" style="border: 2px solid black; border-radius: 2px; padding: 5px 6px;">
+  <img src="assets/github.png" height="20px" />
+  <span style="color: black; margin-left: 3px;">Code</span>
+</a>
+</div>
+
 ## Introduction
 Due to their miniscule size, Flying Insect Robots (FIRs) are subject to SSWAP--Size, Speed, Weight, and Power--constraints that are not present on other scales of robots.  In the sensing domain, avionics for FIRs must be extremely small, light, and low-power, but also fast enough to perform state estimation on a robot that undergoes very fast motions.  **No sensor-autonomous FIR currently exists.**
 
@@ -53,4 +66,31 @@ The TinySense shows significant reductions in weight and power compared to [prio
 
 ## Future Work
 
-The RoboFly, the Autonomous Insect Robotics Lab's FIR, has an estimated maximum payload of 200 (fix with the correct number) mg and a power capacity of 20 mW.  The TinySense shows it is capable of accurate state estimation within these constraints.  Aiming to prove the first sensor-autonomous FIR, we are currently working on integrating the TinySense on the RoboFly.
+The RoboFly, the Autonomous Insect Robotics Lab's FIR, has an estimated maximum payload of 150 mg and a power capacity of 20 mW.  The TinySense shows it is capable of accurate state estimation within these constraints.  Aiming to prove the first sensor-autonomous FIR, we are currently working on integrating the TinySense on the RoboFly.
+
+## Team
+
+The TinySense was made by members of the [Autonomous Insect Robotics Lab](https://depts.washington.edu/airlab/) at the University of Washington.
+
+<div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+  <div>
+    <img src="assets/team/zhitao_yu.png" width="180px">
+    <p>Zhitao Yu</p>
+  </div>
+  <div>
+    <img src="assets/team/josh.jpeg" width="180px">
+    <p>Joshua Tran</p>
+  </div>
+  <div>
+    <img src="assets/team/AaronWeberPicture.jpg" width="180px">
+    <p>Aaron Weber</p>
+  </div>
+  <div>
+    <img src="assets/team/yash_new.png" width="180px">
+    <p>Yash Talwekar</p>
+  </div>
+  <div>
+    <img src="assets/team/fuller_portrait-1.jpg" width="180px">
+    <p>Sawyer Buckminster Fuller</p>
+  </div>
+</div>
