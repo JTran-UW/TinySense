@@ -6,11 +6,11 @@ hide_header: true
 
 # TinySense: A Lighter Weight and More Power-efficient Avionics System for Flying Insect-scale Robots
 
-![The TinySense next to the RoboFly and a pencil](/withrobo (1).jpg)
+![The TinySense next to the RoboFly and a pencil](assets/withrobo.jpg)
 ## Introduction
 Due to their miniscule size, Flying Insect Robots (FIRs) are subject to SSWAP--Size, Speed, Weight, and Power--constraints that are not present on other scales of robots.  In the sensing domain, avionics for FIRs must be extremely small, light, and low-power, but also fast enough to perform state estimation on a robot that undergoes very fast motions.  **No sensor-autonomous FIR currently exists.**
 
-![The TinySense compared to a penny](/sensors (1).png)
+![The TinySense compared to a penny](assets/sensors.png)
 
 The TinySense consists of 3 sensors.  The first is the InvenSense ICM-42688-P Inertial Measurement Unit (IMU).  Second, in a departure from prior work, is a Bosch BMP390 pressure sensor replacing a power-hungry laser rangefinder.  Finally, a bulky optical flow sensor is replaced with a novel tiny global shutter camera by PixArt, while optical flow is computed on an Nordic nRF52840 microcontroller.  **At only 74mg and approximately 15mW, the TinySense presents the current smallest avionics system and is possibly capable of achieving FIR sensor autonomy.**
 
@@ -21,7 +21,7 @@ The TinySense was demonstrated on-board the Crazyflie, a quadrotor and the small
 The TinySense sensors perform comparably to the industy-standard sensors on the Crazyflie.  Note that the pressure sensor measures a sharp decline at the beginning of the experiment due to the spinning blades causing a pressure drop.
 
 <video controls width="800">
-  <source src="/TinySense_Sensors.webm" type="video/webm">
+  <source src="assets/TinySense_Sensors.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
 
@@ -31,7 +31,7 @@ The TinySense sensors perform comparably to the industy-standard sensors on the 
 Using a Kalman Filter, the TinySense estimates pitch angle, velocity, and altitude to a high degree of accuracy.
 
 <video controls width="800">
-  <source src="/TinySense_Estimates.webm" type="video/webm">
+  <source src="assets/TinySense_Estimates.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
 <br>
