@@ -1,21 +1,5 @@
 /*
-  PAG7920LT
-  This sketch sends optic flow data serially for processing by Arduino Serial
-  Plotter.
-  Circuit:
-    - Adafruit nRF52840 Feather Express
-    - PAG7920 camera module:
-      - VDD33 connected to 3V
-      - VDDIO connected to 3V
-      - GND connected GND
-      - SCL connected to SCL
-      - SDA connected to SDA
-      - VSYNC connected to 1/RX
-      - D0 connected to MI
-      - HSYNC connected to MO
-      - PXCLK connected to SCK
-      - G1 connected to 10
-      - G2 connected to 3V
+  This sketch runs all avionics needed during TinySense experiments.
 */
 #include <Adafruit_LittleFS.h>
 #include <Adafruit_Sensor.h>

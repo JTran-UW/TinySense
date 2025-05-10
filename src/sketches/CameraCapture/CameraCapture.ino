@@ -1,23 +1,7 @@
 /*
-  PAG7920LT
   This sketch sends image data to ArduImageCapture from a PAG7920 camera.
   It was inspired heavily by Indreluuk's OV7670 library and the
   Arduino_OV7670 library.
-
-  Circuit:
-    - Adafruit nRF52840 Feather Express
-    - PAG7920 camera module:
-      - VDD33 connected to 3V
-      - VDDIO connected to 3V
-      - GND connected GND
-      - SCL connected to SCL
-      - SDA connected to SDA
-      - VSYNC connected to 1/RX
-      - D0 connected to MI
-      - HSYNC connected to MO 
-      - PXCLK connected to SCK
-      - G1 connected to 10
-      - G2 connected to 3V
 */
 
 #include <Arduino_PAG7920.h>
