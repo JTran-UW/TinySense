@@ -8,7 +8,7 @@ Under `/src/*` folders, contains the libraries and sketches deployed to an [Adaf
 
 ## Data and Plotting
 
-Under `/experiments/`, contains the experimental data and processing and plotting scripts.  Dependencies are held in `requirements.txt` and can be installed to any virtual environment.
+Under `/experiments/`, contains the experimental data and processing and plotting scripts.  To generate graphs used in the paper, installed the requirements listed in `requirements.txt` on any virtual environment and run `python experiments/main.py`
 
 ## Docs
 
