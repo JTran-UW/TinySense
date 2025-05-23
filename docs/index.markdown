@@ -11,7 +11,7 @@ The TinySense (center) is pictured with a Robofly (left) and a pencil (right).
 
 <div style="width: 100% border:2px solid red; border-radius: 2px; padding: 5px 6px;">
   <p style="color:red;">Winner of Best Student Paper Award at ICRA 2025!</p>
-</div>div>
+</div>
 
 <div style="display: inline-block; margin: 10px 0px;">
 <a href="https://arxiv.org/abs/2501.03416" style="border: 2px solid black; border-radius: 2px; padding: 5px 6px; margin-right: 6px;">
